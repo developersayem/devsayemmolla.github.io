@@ -1,0 +1,77 @@
+.site-header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #171b20;
+}
+.pink-color{
+    color: #FC5185;
+    border: 2px solid transparent;
+}
+.links:hover{
+    color: #3FC1C9;
+    border-bottom: 2px solid #FC5185;
+    animation: 2s ease-in-out;
+}
+.nav-title {
+border: 2px solid transparent;
+}
+.nav-title:hover {
+    color: #FC5185;
+}
+.navbar-toggler{
+  color: #3FC1C9;
+}
+/* .wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+} */
+
+.typing1{
+  color: #3FC1C9;
+
+}
+
+.typing2{
+  color: #F5F5F5;
+  width: 25ch;
+  animation: typing2 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing2 {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .typing1 {
+   font-size: 10vw;
+  }
+  .typing2 {
+   font-size: 1rem;
+  }
+  
+}
+
+@media only screen and (min-width: 700px) {
+ .typing1 {
+ font-size: 10vw;
+}
+ .typing2 {
+ font-size: 2rem;
+}
+
+}
