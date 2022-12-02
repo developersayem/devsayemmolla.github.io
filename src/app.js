@@ -1,9 +1,25 @@
-const itmeEl = document.getElementById("times");
-function typeWriter(item) {
-  item.classList.remove("d-none");
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
-function typeWriterStart(item) {
-  item.classList.add("typing2");
-}
-setInterval(() => typeWriter(typeWriter(itmeEl), 4000));
-setInterval(() => typeWriter(typeWriterStart(itmeEl), 8000));
+
+export default App;
