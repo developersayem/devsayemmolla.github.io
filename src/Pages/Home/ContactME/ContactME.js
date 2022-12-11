@@ -36,20 +36,26 @@ const ContactME = () => {
                             </p>
                         </div>
                     </div>
-                    <form noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                    <form noValidate=""
+                        action="https://formsubmit.co/sayemmolla012@outlook.com" method="POST"
+                        className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                         <label className="block">
                             <span className="mb-3">Full name</span>
-                            <input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm  p-2 dark:bg-gray-800" />
+                            <input type="text" name="name" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm  p-2 outline-transparent dark:bg-gray-800" />
+                        </label>
+                        <label className="block">
+                            <span className="mb-1">Subject</span>
+                            <input type="text" name="_subject" placeholder=" Subject" className="block w-full rounded-md shadow-sm p-2 outline-transparent dark:bg-gray-800" />
                         </label>
                         <label className="block">
                             <span className="mb-1">Email address</span>
-                            <input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm p-2   dark:bg-gray-800" />
+                            <input type="email" name='email' placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm p-2 outline-transparent  dark:bg-gray-800" />
                         </label>
                         <label className="block">
                             <span className="mb-1">Message</span>
-                            <textarea rows="3" className="block w-full rounded-md p-2  dark:bg-gray-800"></textarea>
+                            <textarea rows="3" name="message" className="block w-full outline-transparent rounded-md p-2 shadow-sm dark:bg-gray-800"></textarea>
                         </label>
-                        <Button variant='gradient' color='deep-orange' type="button" className="self-center">Submit</Button>
+                        <Button variant='gradient' color='deep-orange' type="submit" className="self-center">Submit</Button>
                     </form>
                 </div>
             </section>
