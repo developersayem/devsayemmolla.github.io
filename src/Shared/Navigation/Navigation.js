@@ -19,13 +19,10 @@ const Navigation = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <motion.Link
-                    // initial={{ scale: 0 }}
-                    // whileHover={{ scale: 0.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    to='/home' className="flex items-center text-white font-bold tracking-wide">
+                <Link
+                    to='/home' className="flex items-center hover:scale-100 text-white font-bold tracking-wide">
                     Home
-                </motion.Link>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -47,16 +44,16 @@ const Navigation = () => {
                     Projects
                 </Link>
             </Typography>
-            <Typography
+            {/* <Typography
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link to='/' className="flex items-center text-white font-bold tracking-wide">
+                <Link to='/contact' className="flex items-center text-white font-bold tracking-wide">
                     Contact
                 </Link>
-            </Typography>
+            </Typography> */}
             <Typography
                 as="li"
                 variant="small"

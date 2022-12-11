@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Graphical Store",
+    "photo": "https://i.ibb.co/qsTpfK8/graphic-store.png",
+    "type": "Full-Stack Project ",
+    "link": "https://graphic-assainment-11.web.app/",
+    "technology": [
+      "JavaScript",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "name": "Typing Master ",
+    "photo": "https://i.ibb.co/FKKdbYk/typing-monter.png",
+    "type": " Front-End Project ",
+    "link": "https://sayemmolla.me/type-monster-debug/",
+    "technology": ["JavaScript", "HTML", "CSS", "JSON"]
+  },
+  {
+    "name": "ReMart ",
+    "photo": "https://i.ibb.co/gtsYbLN/remart.png",
+    "type": "Full-Stack Project ",
+    "link": "https://remart-d1e3a.web.app/",
+    "technology": [
+      "JavaScript",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ]
+  }
+]
